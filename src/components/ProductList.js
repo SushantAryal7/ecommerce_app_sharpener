@@ -22,6 +22,7 @@ function ProductList() {
     // .then((data)=>{return data.json()})
     // .then((ans)=>{
     //   setProductsArr(ans)
+    // okkk
     // })
     fun()
   },[])
