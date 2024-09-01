@@ -31,9 +31,9 @@ function ProductList() {
   return (
     <Fragment>
         {isLoading?<p style={{textAlign:'center'}}>{load}</p>:
-        <div style={{ display:'flex', flexWrap:'wrap', gap:'10px'}}>
-        {productsArr.map((product) => <Card style={{ flex: '20%', boxSizing:'borderBox' ,padding: '20px', margin:'10%' }}>
-      <Card.Img variant="top" src={product.image} />
+        <div style={{ display:'flex', flexWrap:'wrap', }}>
+        {productsArr.map((product) => <Card style={{ flex: '20%', boxSizing:'borderBox' ,padding: '2%', marginLeft:'5%', marginRight:'15%'}}>
+      <Card.Img variant="top" src={product.image}  />
       <Card.Body>
         <Card.Title>{product.title}</Card.Title>
         <Card.Text>{product.price}</Card.Text>

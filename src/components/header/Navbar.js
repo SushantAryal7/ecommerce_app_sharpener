@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import './Navbar.module.css'
 import { Navbar, Container, Nav, Button } from 'react-bootstrap'
 import ProductList from '../ProductList'
+import Cart from '../cart/Cart'
 
 
 function Navbarr() {
@@ -25,6 +26,7 @@ function Navbarr() {
       </div>
       
 <ProductList />
+<Cart />
 
 
     </Fragment>

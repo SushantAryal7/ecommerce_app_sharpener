@@ -1,0 +1,32 @@
+.cart{
+    height:90vh;
+    width: 20%;
+    background-color: whitesmoke;
+    position: fixed;
+    top:10vh;
+    right: 0;
+}
+
+.span{
+    margin: 3%;
+    padding:4%;
+    border-bottom: 1px solid #000; /* Thickness and color of the underline */
+    padding-bottom: 10px; /* Space between text and underline */
+}
+
+.cartmap span{
+    flex: 30%;
+    margin: 1%; 
+    /* margin-top: 7%;
+    padding:4%; */ 
+    border-bottom: 1px solid #000; /* Thickness and color of the underline */
+   padding-bottom: 5px; /* Space between text and underline */
+    font-size: smaller;
+    font-size: 10px;
+
+}
+
+.cartmap{
+    display: flex;
+    flex-wrap:wrap;
+}
